@@ -1,0 +1,129 @@
+:root {
+    --color-primary: #001A6E;
+    --color-secondary: #074799;
+    --color-tertiary: #009990;
+    --font-heading: "Libre Caslon Text", serif;
+    --font-text: "Quicksand", sans-serif;
+  }
+
+  body {
+    font-family: var(--font-text);
+    font-size: 1.1rem;
+    overflow-x: hidden;
+    background-color: #F6F4F0 !important;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+  }
+
+  #Lokacija h2 {
+    padding: 20px;
+    color: #001A6E !important; 
+  }
+
+  nav {
+    position: relative; 
+    z-index: 1000; 
+    background-color: #F6F4F0 !important; 
+    padding: 15px;
+    opacity: 1;
+  }
+
+  .navbar .nav-link {
+    font-size: 22px !important;
+    color: #001A6E !important; 
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+
+  .carousel {
+    height: 90vh !important;
+    position: relative; 
+    z-index: 1;
+  }
+
+  .carousel-caption {
+    padding-top: 8.25rem !important;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .carousel-caption.first {
+      width: 50%;
+    }
+  }
+  
+  .btn-primary {
+    background-color: var(--color-primary) !important;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: var(--color-tertiary) !important;
+    color: white !important;
+    border: 1px solid var(--color-primary);
+  }
+  .row.row-gutter {
+    --bs-gutter-x: 2rem !important;
+  }
+  
+  .accordion-item {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .accordion-header button {
+    font-family: var(--font-text) !important;
+    font-size: 1.2rem !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .accordion-button:active,
+  .accordion-button:hover,
+  .accordion-button:focus {
+    background-color: var(--color-secondary) !important;
+    color: white !important;
+    outline: none;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .footer {
+    background-color: #001A6E;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    color: #001A6E !important; 
+}
+
+iframe {
+    width: 100%;
+    padding: 40px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+video {
+    width: 80%;
+    max-width: 900px; 
+}
